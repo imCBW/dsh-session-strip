@@ -1,0 +1,56 @@
+{
+  "name": "dsh-session-strip",
+  "version": "1.7.2",
+  "type": "module",
+  "description": "A compact session strip above the message composer: live status, sub-agents, token usage and unfinished marks for the current and other sessions.",
+  "license": "MIT",
+  "author": "imCBW",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "session",
+    "overview",
+    "subagent",
+    "composer"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@deepseek-ai/schemastery": "^3.18.1"
+  },
+  "peerDependenciesMeta": {
+    "@deepseek-ai/schemastery": {
+      "optional": true
+    }
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imCBW/dsh-session-strip.git"
+  },
+  "homepage": "https://github.com/imCBW/dsh-session-strip#readme",
+  "bugs": {
+    "url": "https://github.com/imCBW/dsh-session-strip/issues"
+  }
+}

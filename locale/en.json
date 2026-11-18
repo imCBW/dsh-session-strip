@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Session view",
+    "description": "Shows the current session's title, status, working directory, context usage, and activity above the message composer."
+  }
+}

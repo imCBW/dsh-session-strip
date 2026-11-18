@@ -1,0 +1,3 @@
+- insert:
+    - id: session-view
+      name: 'dsh-session-strip'
