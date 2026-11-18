@@ -1,6 +1,6 @@
 {
   "name": "dsh-session-strip",
-  "version": "1.7.2",
+  "version": "1.7.4",
   "type": "module",
   "description": "A compact session strip above the message composer: live status, sub-agents, token usage and unfinished marks for the current and other sessions.",
   "license": "MIT",

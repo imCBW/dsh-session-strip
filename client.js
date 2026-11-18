@@ -142,6 +142,8 @@ window.__ModuleLoader__.load({
 .dshsv_stateDot[data-tone=idle]{color:var(--dsw-alias-state-idle-primary,#8a8a8a)}
 .dshsv_spinner{flex:none;color:#4c9ffe}
 .dshsv_spinnerSub{color:var(--dsw-alias-label-tertiary,#8a8a8a)}
+.dshsv_otherRow .dshsv_spinnerSub,.dshsv_head .dshsv_spinnerSub,.dshsv_bar .dshsv_spinner{color:#4c9ffe}
+.dshsv_otherChild .dshsv_spinner,.dshsv_otherChild .dshsv_spinnerSub,.dshsv_childRow .dshsv_spinner,.dshsv_childRow .dshsv_spinnerSub{color:var(--dsw-alias-label-tertiary,#8a8a8a)}
 .dshsv_spinnerMotion{transform-origin:center;animation:dshsv-state-spin 1.5s linear infinite}
 .dshsv_spinnerTrack,.dshsv_spinnerArc{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
 .dshsv_spinnerTrack{opacity:.25}
